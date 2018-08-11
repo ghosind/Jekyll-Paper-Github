@@ -1,4 +1,4 @@
-# Jekyll-Paper-Github
+# Jekyll Paper for Github
 
 Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way. Jekyll Paper was designed as a paper book style, giving the reader a sense of what it looked like to read a paper book.
 
@@ -14,6 +14,7 @@ Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it 
 - Custom navigation menu
 - SASS
 - Multiple languages support
+- Configurable navigation menu
 
 ## Getting Start
 
@@ -28,7 +29,21 @@ Jekyll Paper for Github is easy to create your own blog. You can create your blo
 
 You can add new posts at any time after you had your own blog. Create a new post need to add a new file in "_posts" directory, and the file name must follow the convention `YYYY-MM-DD-name-of-post.md`.
 
-## Supported languages
+## Custom Navigation Menu
+
+You can add or update navigation menu items in `_data/menus.yml` file. In the configuration file, you need set title and URL for every navigation menu item.
+
+### Example
+
+```yml
+- title: "Index"
+  url:   ""
+
+- title: "About"
+  url:   "about"
+```
+
+## Supported Languages
 
 - English
 - Español (Spanish)
