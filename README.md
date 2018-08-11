@@ -2,6 +2,8 @@
 
 Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way. Jekyll Paper was designed as a paper book style, giving the reader a sense of what it looked like to read a paper book.
 
+Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it only contains Github Pages environment supported plugins.
+
 ## Features
 
 - Responsive
@@ -11,7 +13,7 @@ Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create yo
 - Custom 404 page
 - Custom navigation menu
 - SASS
-- Multiple language support
+- Multiple languages support
 
 ## Getting Start
 
@@ -25,6 +27,14 @@ Jekyll Paper for Github is easy to create your own blog. You can create your blo
 ## Add New Posts
 
 You can add new posts at any time after you had your own blog. Create a new post need to add a new file in "_posts" directory, and the file name must follow the convention `YYYY-MM-DD-name-of-post.md`.
+
+## Supported languages
+
+- English
+- Español (Spanish)
+- Français (French)
+- 简体中文 (Simplified Chinese)
+- 繁體中文 (Traditional Chinese)
 
 ## Contributing
 
