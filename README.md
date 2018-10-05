@@ -11,7 +11,6 @@ Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it 
 - RSS
 - Sitemap
 - Custom 404 page
-- Custom navigation menu
 - SASS
 - Multiple languages support
 - Configurable navigation menu

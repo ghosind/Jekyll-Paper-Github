@@ -1,4 +1,9 @@
+# Output
 _site
+
+# Cache
 .sass-cache
 .jekyll-metadata
+
+# Gem lock file
 Gemfile.lock
