@@ -7,3 +7,6 @@ _site
 
 # Gem lock file
 Gemfile.lock
+
+# Mac OSX
+.DS_store
