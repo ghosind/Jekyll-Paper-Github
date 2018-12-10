@@ -16,6 +16,7 @@ Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it 
 - SASS
 - Multiple languages support
 - Configurable navigation menu
+- SEO Optimization
 
 ## Getting Start
 
@@ -46,9 +47,14 @@ You can add or update navigation menu items in `_data/menus.yml` file. In the co
 
 ## Supported Languages
 
+This list order by language codes alphabets.
+
 - English
+- Deutsche (German)
 - Español (Spanish)
 - Français (French)
+- 日本語 (Japanese)
+- Português (Portuguese)
 - 简体中文 (Simplified Chinese)
 - 繁體中文 (Traditional Chinese)
 
