@@ -24,6 +24,9 @@ language: en
 
 analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 
+comments: false  # enable comments
+disqus:          # disqus account
+
 paginate: 25
 paginate_path: "/page:num/"
 
