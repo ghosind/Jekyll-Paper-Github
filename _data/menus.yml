@@ -1,6 +1,9 @@
 - default: menu_index
   url:   ""
 
+- title: "Categories"
+  url: "categories"
+
 - title: "Jekyll Paper for Github"
   absoluteUrl: true
   url: "https://github.com/ghosind/Jekyll-Paper-Github"
