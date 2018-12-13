@@ -1,7 +1,7 @@
 - default: menu_index
   url:   ""
 
-- title: "Categories"
+- default: menu_category
   url: "categories"
 
 - title: "Jekyll Paper for Github"

@@ -18,6 +18,7 @@ Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it 
 - Configurable navigation menu
 - SEO Optimization
 - Comments
+- Category Index
 
 ## Getting Start
 

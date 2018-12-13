@@ -12,6 +12,7 @@ en:
   post_tags: "Tags: "
   post_previous: "Previous: "
   post_next: "Next: "
+  categories_title: "Categories"
 
 de:
   menu_index: "Index"
@@ -27,6 +28,7 @@ de:
   post_tags: "Etikett: "
   post_previous: "Bisherige: "
   post_next: "Nächster: "
+  categories_title: "Kategorien"
 
 es:
   menu_index: "Índice"
@@ -42,6 +44,7 @@ es:
   post_tags: "Etiquetas: "
   post_previous: "Anterior: "
   post_next: "Siguiente: "
+  categories_title: "Categorías"
 
 fr:
   menu_index: "Indice"
@@ -57,6 +60,7 @@ fr:
   post_tags: "Étiquette: "
   post_previous: "Précédent: "
   post_next: "Prochain: "
+  categories_title: "Catégories"
 
 ja:
   menu_index: "ホーム"
@@ -72,6 +76,7 @@ ja:
   post_tags: "ラベル："
   post_previous: "前の記事："
   post_next: "次の記事："
+  categories_title: "分類"
 
 pt:
   menu_index: "Índice"
@@ -87,6 +92,7 @@ pt:
   post_tags: "Etiquetas: "
   post_previous: "Anterior: "
   post_next: "Próximo: "
+  categories_title: "Categorias"
 
 zh-cn:
   menu_index: "首页"
@@ -102,6 +108,7 @@ zh-cn:
   post_tags: "标签："
   post_previous: "前一篇："
   post_next: "后一篇："
+  categories_title: "分类"
 
 zh-tw:
   menu_index: "首頁"
@@ -117,3 +124,4 @@ zh-tw:
   post_tags: "標籤："
   post_previous: "前一篇："
   post_next: "後一篇："
+  categories_title: "分類"
