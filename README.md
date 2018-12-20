@@ -6,6 +6,14 @@ Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create yo
 
 Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it only contains Github Pages environment supported plugins.
 
+## Screenshots
+
+![Index Screenshot](./assets/images/index-screenshot.png)
+
+![Post Screenshot](./assets/images/post-screenshot.png)
+
+![Category Screenshot](./assets/images/category-screenshot.png)
+
 ## Features
 
 - Responsive
