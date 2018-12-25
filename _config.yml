@@ -27,6 +27,8 @@ analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 comments: false  # enable comments
 disqus:          # disqus account
 
+mathjax: true    # Math support
+
 paginate: 25
 paginate_path: "/page:num/"
 
