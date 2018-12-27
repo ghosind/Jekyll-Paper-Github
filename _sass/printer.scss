@@ -1,3 +1,7 @@
+.print-post-author {
+  display: none;
+}
+
 @media print {
   /* Header */
   .container-header {
@@ -19,7 +23,7 @@
     text-align: center;
   }
 
-  .post-other {
+  .post-info {
     display: none;
   }
 

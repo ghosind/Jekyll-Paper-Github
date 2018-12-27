@@ -6,16 +6,23 @@ layout: default
   <div class="post-title">
     <h1>{{ page.title }}</h1>
   </div>
-  <div class="post-author">
+  {% if site.name %}
+  <div class="post-author print-post-author">
     <span>{{ site.name }}</span>
   </div>
+  {% endif %}
   <div class="post-content">
     {{ content }}
   </div>
-  <div class="post-other">
+  <div class="post-info">
     <div class="post-date">
       {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.update %}, {{ site.data.lang[site.language].post_update_date }}{{ page.update | date: "%Y-%m-%d" }}{% endif %}.
     </div>
+    {% if site.name %}
+    <div class="post-author">
+      {{ site.data.lang[site.language].post_author }}{{ site.name }}
+    </div>
+    {% endif %}
     <div class="post-categories">
       <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
