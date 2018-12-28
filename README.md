@@ -6,6 +6,8 @@ Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create yo
 
 Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it only contains Github Pages environment supported plugins.
 
+This is a [demo website](https://www.ghosind.com) for Jekyll Paper for Github.
+
 ## Screenshots
 
 ![Index Screenshot](./assets/images/index-screenshot.png)
@@ -24,9 +26,10 @@ Jekyll Paper for Github is the sub-project for [Jekyll Paper][jekyll-paper], it 
 - SASS
 - Multiple languages support
 - Configurable navigation menu
-- SEO Optimization
+- SEO optimization
 - Comments
 - Category Index
+- Math support
 
 ## Getting Start
 
@@ -67,6 +70,10 @@ This list order by language codes alphabets.
 - Português (Portuguese)
 - 简体中文 (Simplified Chinese)
 - 繁體中文 (Traditional Chinese)
+
+## License
+
+Jekyll Paper for Github was released under MIT license.
 
 ## Contributing
 
