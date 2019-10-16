@@ -18,3 +18,7 @@
 {% if site.mathjax %}
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 {% endif %}
+{% if site.diagram %}
+<script src="/assets/scripts/jekyllpaper.js" async ></script>
+<script src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js" onload="javascript:loadMermaid();" async></script>
+{% endif %}
