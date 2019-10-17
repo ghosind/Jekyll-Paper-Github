@@ -8,10 +8,10 @@ name: Your name
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here.
 keywords: [Your keywords]
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "example.com" # the domain name for your site, e.g. example.com
-language: en 
+baseurl: '' # the subpath of your site, e.g. /`blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+domain: 'example.com' # the domain name for your site, e.g. example.com
+language: en
 # Supported languages list:
 # en: English
 # de: Deutsche (German)
@@ -22,16 +22,16 @@ language: en
 # zh-cn: 简体中文 (Simplified Chinese)
 # zh-tw: 繁體中文 (Traditional Chinese)
 
-analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
+analytics: # the Google Analytics property ID, e.g. UA-XXXXX-Y
 
-comments: false  # enable comments
-disqus:          # disqus account
+comments: false # enable comments
+disqus: # disqus account
 
-mathjax: true    # Math support
-diagram: true    # Diagrams support
+mathjax: true # Math support
+diagram: true # Diagrams support
 
 paginate: 25
-paginate_path: "/page:num/"
+paginate_path: '/page:num/'
 
 permalink: /:year/:month/:day/:title
 
@@ -43,7 +43,6 @@ sass:
 markdown: kramdown
 plugins:
   - github-pages
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

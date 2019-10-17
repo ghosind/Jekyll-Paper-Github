@@ -10,13 +10,13 @@
 @charset "utf-8";
 
 .highlight {
-  table{
+  table {
     td {
-      padding: 5px; 
+      padding: 5px;
     }
 
-    pre { 
-      margin: 0; 
+    pre {
+      margin: 0;
     }
   }
 
@@ -173,7 +173,7 @@
     font-weight: bold;
     color: #008;
   }
-  
+
   // For global variables (such as $LOAD_PATH in Ruby)
   .vg {
     font-weight: bold;
@@ -238,7 +238,7 @@
     font-weight: bold;
     color: #800;
   }
-  
+
   // For interpoled part in strings (e.g. in Ruby)
   .si {
     font-weight: bold;
@@ -274,7 +274,7 @@
     font-weight: bold;
     color: #f696db;
   }
-  
+
   // Float numbers
   .mf {
     font-weight: bold;
@@ -339,7 +339,7 @@
     font-style: italic;
     color: #228b22;
   }
-  
+
   // Mutliline comments
   .cm {
     font-style: italic;
@@ -436,13 +436,13 @@
     font-style: italic;
     color: #228b22;
   }
-  
+
   // Keywords used for variable
   .kv {
     font-weight: bold;
     color: #c71585;
   }
-  
+
   // Punctuation which is an indicator
   .pi {
     color: #0f6f75;

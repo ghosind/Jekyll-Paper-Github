@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @media screen and (max-width: 768px) {
   /* reset default styles */
   img {
@@ -11,7 +13,8 @@
   }
 
   /* Footer */
-  .footer-copyright .float-left, .footer-copyright .float-right {
+  .footer-copyright .float-left,
+  .footer-copyright .float-right {
     float: none;
   }
 }

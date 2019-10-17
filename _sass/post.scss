@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .post-title {
   text-align: center;
 }
@@ -16,6 +18,7 @@
   margin: 10px 0;
 }
 
-.post-category, .post-tag {
+.post-category,
+.post-tag {
   margin: 0 5px;
 }

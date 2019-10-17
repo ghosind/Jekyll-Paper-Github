@@ -16,7 +16,14 @@ layout: default
   </div>
   <div class="post-info">
     <div class="post-date">
-      {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.last_modified_at %}, {{ site.data.lang[site.language].post_update_date }}{{ page.last_modified_at | date: "%Y-%m-%d" }}{% endif %}.
+      {{ site.data.lang[site.language].post_write_date}}
+      {{ page.date | date: '%Y-%m-%d' }}
+      {% if page.last_modified_at %}
+        ,
+        {{ site.data.lang[site.language].post_update_date}}
+        {{ page.last_modified_at | date: '%Y-%m-%d' }}
+      {% endif %}
+      .
     </div>
     {% if site.name %}
     <div class="post-author">
@@ -26,7 +33,11 @@ layout: default
     <div class="post-categories">
       <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
-      <a href="{{ site.baseurl }}/categories#{{ category }}" class="post-category">{{ category }}</a>
+      <a 
+        href="{{ site.baseurl }}/categories#{{ category }}"
+        class="post-category">
+        {{ category }}
+      </a>
       {% endfor %}
     </div>
     <div class="post-tags">
@@ -35,15 +46,25 @@ layout: default
       <span class="post-tag">{{ tag }}</span>
       {% endfor %}
     </div>
-    <div class="post-tools">
+    <div class="post-other">
       {% if page.next %}
       <div>
-        <span>{{ site.data.lang[site.language].post_next }}</span><a href="{{ page.next.url }}">{{ page.next.title }}</a>
+        <span>
+          {{ site.data.lang[site.language].post_next }}
+        </span>
+        <a href="{{ page.next.url }}">
+          {{ page.next.title }}
+        </a>
       </div>
       {% endif %}
       {% if page.previous %}
       <div>
-        <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+        <span>
+          {{ site.data.lang[site.language].post_previous }}
+        </span>
+        <a href="{{ page.previous.url }}">
+          {{ page.previous.title }}
+        </a>
       </div>
       {% endif %}
     </div>
