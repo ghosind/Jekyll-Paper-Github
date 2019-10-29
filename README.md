@@ -29,7 +29,8 @@ This is a [demo website](https://www.ghosind.com) for Jekyll Paper for Github.
 - SEO optimization
 - Comments
 - Category Index
-- Math support
+- Mathematics
+- Diagrams
 
 ## Getting Start
 
