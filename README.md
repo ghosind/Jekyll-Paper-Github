@@ -18,7 +18,7 @@ This is a [demo website](https://www.ghosind.com) for Jekyll Paper for Github.
 - Sitemap
 - Custom 404 page
 - SASS
-- Multiple languages support
+- Internationalization
 - Configurable navigation menu
 - SEO optimization
 - Category Index
@@ -55,7 +55,7 @@ You can add or update navigation menu items in `_data/menus.yml` file. In the co
 
 ## Supported Languages
 
-Jekyll Paper for Github has supported the following languages. I'm anticipating you to help me improve the quality of translations and add more languages. The languages list by alphabets of its language code.
+Jekyll Paper for Github has supported the following languages, please set language in `language` section of `_config.yml` file (default `language: en`). I'm anticipating you to help me improve the quality of translations and add more languages. The languages list by alphabets of its language code.
 
 - English
 - Deutsche (German)
