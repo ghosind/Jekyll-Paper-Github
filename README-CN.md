@@ -16,7 +16,7 @@ Jekyll Paper for Github是[Jekyll Paper][jekyll-paper]的子项目，它专为Gi
 - Sitemap
 - 自定义404页面
 - SASS
-- 多语言支持
+- 国际化
 - 可配置菜单栏
 - SEO优化
 - 分类目录索引
@@ -53,7 +53,7 @@ Jekyll Paper for Github的使用方法十分简单，只需要简单的几步即
 
 ## 支持的语言列表
 
-Jekyll Paper for Github目前支持下列语言，欢迎参与提高翻译质量及增加更多语言。
+Jekyll Paper for Github目前支持下列语言，欢迎参与提高翻译质量及增加更多语言。请在`_config.yml`文件中设置`language`的值，其默认值为`en`（`language: en`）。
 
 - 简体中文
 - 繁體中文
