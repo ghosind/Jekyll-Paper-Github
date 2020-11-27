@@ -15,10 +15,6 @@
     <a href="{{ paginator.previous_page_path }}" class="float-left">
       {{ site.data.lang[site.language].paginator_previous }}
     </a>
-    {% else %}
-    <span class="float-left">
-      {{ site.data.lang[site.language].paginator_previous }}
-    </span>
     {% endif %}
     <span class="page_number">
       {{ site.data.lang[site.language].paginator_pages }}{{ paginator.page }} / {{ paginator.total_pages }}
@@ -27,10 +23,6 @@
     <a href="{{ paginator.next_page_path }}" class="float-right">
       {{ site.data.lang[site.language].paginator_next }}
     </a>
-    {% else %}
-    <span class="float-right">
-      {{ site.data.lang[site.language].paginator_next }}
-    </span>
     {% endif %}
   </div>
   {% endif %}
