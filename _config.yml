@@ -42,7 +42,10 @@ sass:
 # Build settings
 markdown: kramdown
 plugins:
-  - github-pages
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
