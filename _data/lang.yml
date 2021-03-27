@@ -48,6 +48,23 @@ es:
   post_next: 'Siguiente: '
   post_author: 'El autor: '
   categories_title: 'Categorías'
+  
+it:
+  menu_index: 'Indice'
+  menu_category: 'Categorie'
+  menu_about: 'About'
+  paginator_previous: 'Precedente'
+  paginator_pages: 'Pagina: '
+  paginator_next: 'Successivo'
+  notification_404: 'Pagina non trovata :('
+  post_write_date: 'Scritto il '
+  post_update_date: 'aggiornato il '
+  post_categories: 'Categorie: '
+  post_tags: 'Etichette: '
+  post_previous: 'Precedente: '
+  post_next: 'Successivo: '
+  post_author: 'Autore: '
+  categories_title: 'Categorie'
 
 fr:
   menu_index: 'Indice'
