@@ -1,5 +1,5 @@
 ---
-title: '何乐开源协议 [Hele open source  license] V3.1'
+title: ''
 date: 2021-04-30 16:52:30
 tags: []
 published: true
@@ -7,6 +7,14 @@ hideInList: false
 feature: 
 isTop: false
 ---
+---
+layout: post
+title:  "何乐开源协议 [Hele open source  license] V3.1"
+date:   2021-04-30
+last_modified_at: 2021-04-30
+categories: [Jekyll Paper]
+---
+
 何乐开源协议[Hele open source  license V3.1]下简称HSL
 HSL是何乐源码发布发的公共许可证，该许可证主要内容如下：
 - 允许免费商业化使用
