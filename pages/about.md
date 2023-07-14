@@ -4,13 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
+> 欢迎来到我的小站呀，很高兴遇见你！🤝
 
-You can find more information in [Jekyll Paper][jekyll-paper] or [Jekyll Paper for Github][jekyll-paper-github]. If you have any questions or suggestions, you can contact me in [Jekyll Paper Issues][jekyll-paper-issues], [Jekyll Paper for Github Issues][jekyll-paper-github-issues] or send email to [me](mailto:i@ghosind.com). 
-
-Wish you enjoying your blog life!
-
-[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
-[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
-[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
-[jekyll-paper-github-issues]: https://github.com/ghosind/Jekyll-Paper-Github/issues
+## 🏠 关于本站
+其实现在来做博客主要是为了记录一下事情，记录开始，分享成长，之前我看过很多人的博客，从第一篇看起，再看到最后一篇，我发现这是一个成长的过程，所以我觉得做个博客，记录一下自己的生活和开发笔记。
+学业繁忙,所以，一年更新一点点，（俗话说：浓缩的都是精华），就是这样，开始吧！
+## 👨‍💻 博主是谁
+我是一个计算机开发开源爱好者，喜欢计算机的一切，喜欢web技术，同时也是一个绘画美术爱好者，嘻嘻！
+## 📬 联系我呀
+邮箱：2357749867@qq.com
