@@ -3,7 +3,7 @@ layout: post
 title:  "何乐开源协议 [Hele open source  license] V3.1"
 date:   2021-04-30
 last_modified_at: 2021-04-30
-categories: [Jekyll Paper]
+categories: [HSL]
 ---
 
 何乐开源协议[Hele open source  license V3.1]下简称HSL
