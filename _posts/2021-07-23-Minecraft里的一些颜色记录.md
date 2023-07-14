@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "一些记录"
+title:  "Minecraft里的一些颜色记录"
 date:   2021-07-23
 last_modified_at: 2021-07-23
 categories: [Jekyll Paper]
