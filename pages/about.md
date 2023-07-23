@@ -13,3 +13,8 @@ permalink: /about/
 我是一个计算机开发开源爱好者，喜欢计算机的一切，喜欢web技术，同时也是一个绘画美术爱好者，嘻嘻！
 ## 📬 联系我呀
 邮箱：2357749867@qq.com
+
+博主还有一些好玩的网站:
+1.何乐云: https://hlscd.top/
+2.helofrp:  https://www.helofrp.top/
+3.helo pages: http://host.hlscd.top/
