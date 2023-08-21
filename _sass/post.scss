@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.post-content {
+  // scrollable for mobile devices
+  overflow-x: scroll;
+}
+
 .post-content p {
   line-height: 20px;
 }
