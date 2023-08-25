@@ -4,9 +4,9 @@
 - default: menu_category
   url: 'categories'
 
-- title: 'Jekyll Paper for Github'
+- title: 'Twitter'
   absoluteUrl: true
-  url: 'https://github.com/ghosind/Jekyll-Paper-Github'
+  url: 'https://twitter.com/example'
 
 - default: menu_about
   url: 'about'
