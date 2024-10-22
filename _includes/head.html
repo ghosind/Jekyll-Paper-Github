@@ -31,12 +31,95 @@
 {% if site.analytics %}
   {% include analytics.html %}
 {% endif %}
+
 {% if site.mathjax %}
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
   async>
 </script>
+
+<style>
+.math-container {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px 0;
+  margin: 1em 0;
+}
+
+.math-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.math-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.math-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.inline-math-container {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  vertical-align: middle;
+  padding: 0 2px;
+}
+
+.inline-math-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.inline-math-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
+}
+</style>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  CommonHTML: {
+    scale: 100,
+    minScaleAdjust: 100,
+    linebreaks: { automatic: false }
+  },
+  "HTML-CSS": {
+    linebreaks: { automatic: false }
+  },
+  SVG: {
+    linebreaks: { automatic: false }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+  
+  var mathElements = document.querySelectorAll('.MathJax, .MathJax_CHTML, .MathJax_SVG');
+  
+  mathElements.forEach(function(element) {
+    var isDisplayMode = element.parentNode.className.indexOf('display') !== -1;
+    
+    var container = document.createElement('div');
+    container.className = isDisplayMode ? 'math-container' : 'inline-math-container';
+    
+    element.parentNode.insertBefore(container, element);
+    container.appendChild(element);
+    
+    element.style.fontSize = '100%';
+  });
+});
+</script>
 {% endif %}
+
 {% if site.diagram %}
 <script src="{{ site.baseurl }}/assets/scripts/jekyllpaper.js" async></script>
 <script
