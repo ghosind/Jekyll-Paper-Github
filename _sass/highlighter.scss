@@ -1,19 +1,41 @@
 @charset "utf-8";
 
+// Variables for light and dark modes
+// Default
+.highlight{
+  --border-color: #ccc;
+  --box-background-color: #eee;
+  --box-shadow: rgba(0, 0, 0, 0.1);
+}
+.highlighter-rouge{
+  --background-color-rouge: #eee;
+}
+// Overrides
+@media (prefers-color-scheme: dark){
+  .highlight{
+    --border-color: darkgrey;
+    --box-background-color: #111;
+    --box-shadow: #888;
+  }
+  .highlighter-rouge{
+    --background-color-rouge: #444;
+  }
+}
+
 .highlight > pre,
 pre.highlight {
   line-height: 18px;
   margin: 10px 0;
   padding-left: 3px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-color);
   overflow-x: auto;
   font-size: 14px;
   text-indent: 0px;
-  background-color: #eee;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  background-color: var(--box-background-color);
+  box-shadow: 3px 3px var(--box-shadow);
 }
 
 .highlighter-rouge {
   font-size: 14px;
-  background-color: #eee;
+  background-color: var(--background-color-rouge);
 }
