@@ -1,5 +1,24 @@
 @charset "utf-8";
 
+// Variables for light and dark mode
+// Default
+th,
+tbody{
+  --background-color: #f5f5f5;
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+  body,
+  a,
+  th,
+  tbody{
+    --main-text-color: white;
+    --main-background-color: #222;
+    --background-color: #444;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +28,13 @@
 html,
 body {
   height: 100%;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--main-text-color);
 }
 
 a:hover {
@@ -64,7 +85,7 @@ table {
 }
 
 tbody tr:hover {
-  background-color: #f5f5f5;
+  background-color: var(--background-color);
 }
 
 td {
@@ -75,7 +96,7 @@ td {
 th {
   padding: 8px;
   border-bottom: 1px solid #ccc;
-  background: #f5f5f5;
+  background: var(--background-color);
 }
 
 // markdown reset

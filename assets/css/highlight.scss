@@ -4,10 +4,17 @@
 /**
  * highlight tokens
  * based on rougify command
- * tokens list: https://github.com/jneen/rouge/wiki/List-of-tokens 
+ * tokens list: https://github.com/jneen/rouge/wiki/List-of-tokens
  */
 
 @charset "utf-8";
+
+// Overrides
+@media (prefers-color-scheme: dark){
+  code{
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
 
 .highlight {
   table {
@@ -351,6 +358,11 @@
     font-style: italic;
     font-weight: bold;
     color: #a52a2a;
+  }
+
+  // Preprocessor values such as <stdio.h> in C
+  .cpf {
+    color: #000;
   }
 
   // Comments that end at the end of the line
