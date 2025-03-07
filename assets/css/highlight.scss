@@ -353,6 +353,11 @@
     color: #a52a2a;
   }
 
+  // Preprocessor values such as <stdio.h> in C
+  .cpf {
+    color: #000;
+  }
+
   // Comments that end at the end of the line
   .c1 {
     font-style: italic;
